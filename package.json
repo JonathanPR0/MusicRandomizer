@@ -1,0 +1,26 @@
+{
+  "name": "musicrandomizer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "node index.js format",
+    "random": "node index.js random",
+    "start": "npm run format && npm run random"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JonathanPR0/MusicRandomizer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JonathanPR0/MusicRandomizer/issues"
+  },
+  "homepage": "https://github.com/JonathanPR0/MusicRandomizer#readme",
+  "description": "",
+  "dependencies": {
+    "music-metadata": "^11.7.3"
+  }
+}
